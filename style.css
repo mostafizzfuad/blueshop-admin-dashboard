@@ -372,4 +372,62 @@ main table tbody tr:last-child td {
     margin-bottom: 1rem;
 }
 
+/* ----- analytics ----- */
+.right .analytics {
+    margin-top: 2rem;
+}
+
+.right .analytics h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .analytics .item {
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 1.4rem var(--card-padding);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.right .analytics .item:hover {
+    box-shadow: none;
+}
+
+.right .analytics .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+}
+
+.right .analytics .item .icon span i {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+}
+
+.right .analytics .add-product {
+    background: transparent;
+    border: 2px dashed var(--color-primary);
+    box-shadow: none;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .analytics .add-product div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right .analytics .add-product div i {
+    font-size: 1.4rem;
+}
+
 /*--=============== right end ===============--*/

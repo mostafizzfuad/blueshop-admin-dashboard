@@ -328,3 +328,48 @@ main table tbody tr:last-child td {
 }
 
 /*--=============== main end ===============--*/
+
+
+/*--=============== right start ===============--*/
+/* ----- admin profile ----- */
+.right {
+    margin-top: 1.4rem;
+}
+
+.right .admin-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    text-align: right;
+}
+
+/* ----- recent updates ----- */
+.right .recent-updates {
+    margin-top: 2rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*--=============== right end ===============--*/
